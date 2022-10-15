@@ -1,5 +1,5 @@
 import { Fragment, useRef, useState } from "react";
-import NavigationPrompt from "react-router-navigation-prompt";
+// import NavigationPrompt from "react-router-navigation-prompt";
 // import NavigationPrompt from "react-router-navigation-prompt";
 
 import Card from "../UI/Card";
@@ -31,12 +31,12 @@ const QuoteForm = (props) => {
 
   return (
     <Fragment>
-      <NavigationPrompt
+      {/* <NavigationPrompt
         when={isEntering}
         message={() => {
           <p>are you sure motherfucjer</p>;
         }}
-      />
+      /> */}
       <Card>
         <form
           onFocus={focusHandler}
