@@ -22,6 +22,7 @@ const QuoteDetails = () => {
   // console.log(match);
   const params = useParams();
   const { quoteId } = params;
+  console.log(quoteId);
 
   const {
     sendRequest,
